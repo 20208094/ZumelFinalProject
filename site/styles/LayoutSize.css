@@ -1,0 +1,167 @@
+/* sizes of layout */
+[class*="col"]{
+    float: left;
+    margin: 3px auto;
+    padding: 3px;
+}
+.col0{
+    width: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.col1{
+    width: 9.99%;
+}
+.col2{
+    width: 19.99%;
+}
+.col3{
+    width: 29.99%;
+}
+.col4{
+    width: 39.99%;
+}
+.col5{
+    width: 49.99%;
+}
+.col6{
+    width: 59.99%;
+}
+.col7{
+    width: 69.99%;
+}
+.col8{
+    width: 79.99%;
+}
+.col9{
+    width: 89.99%;
+}
+.col10{
+    width: 99.99%;
+}
+/* SMALL LAPTOP */
+@media screen and (max-width:1024px){
+    [class*="col"]{
+        float: left;
+        margin: 3px auto;
+        padding: 3px;
+    }
+    .cola0{
+        width: 0%;
+    }
+    .cola1{
+        width: 9.99%;
+    }
+    .cola2{
+        width: 19.99%;
+    }
+    .cola3{
+        width: 29.99%;
+    }
+    .cola4{
+        width: 39.99%;
+    }
+    .cola5{
+        width: 49.99%;
+    }
+    .cola6{
+        width: 59.99%;
+    }
+    .cola7{
+        width: 69.99%;
+    }
+    .cola8{
+        width: 79.99%;
+    }
+    .cola9{
+        width: 89.99%;
+    }
+    .cola10{
+        width: 99.99%;
+    }
+}
+/* TABLET */
+@media screen and (max-width:768px){
+    [class*="col"]{
+        float: left;
+        margin: 3px auto;
+        padding: 3px;
+    }
+    .colb0{
+        width: 0%;
+    }
+    .colb_5{
+        width: 4.99%;
+    }
+    .colb1{
+        width: 9.99%;
+    }
+    .colb2{
+        width: 19.99%;
+    }
+    .colb3{
+        width: 29.99%;
+    }
+    .colb4{
+        width: 39.99%;
+    }
+    .colb5{
+        width: 49.99%;
+    }
+    .colb6{
+        width: 59.99%;
+    }
+    .colb7{
+        width: 69.99%;
+    }
+    .colb8{
+        width: 79.99%;
+    }
+    .colb9{
+        width: 89.99%;
+    }
+    .colb10{
+        width: 99.99%;
+    }
+}
+/* PHONE */
+@media screen and (max-width:425px){
+    [class*="col"]{
+        float: left;
+        margin: 3px auto;
+        padding: 3px;
+    }
+    .colc0{
+        width: 0%;
+    }
+    .colc1{
+        width: 9.99%;
+    }
+    .colc2{
+        width: 19.99%;
+    }
+    .colc3{
+        width: 29.99%;
+    }
+    .colc4{
+        width: 39.99%;
+    }
+    .colc5{
+        width: 49.99%;
+    }
+    .colc6{
+        width: 59.99%;
+    }
+    .colc7{
+        width: 69.99%;
+    }
+    .colc8{
+        width: 79.99%;
+    }
+    .colc9{
+        width: 89.99%;
+    }
+    .colc10{
+        width: 99.99%;
+    }
+}

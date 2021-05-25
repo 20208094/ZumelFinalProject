@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: dimgray;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: 1pt solid red;
+    font-size: 1em;
+    max-width: 1440px;
+}
+body{
+    background-color: black;
+    background-image: url(../assets/images/HomeLogo.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    text-align: center;
+}
+.bg{
+    height: 375px;
+}
+/* character logos */
+.char{
+    text-align: center;
+}
+/* SMALL LAPTOP */
+@media screen and (max-width:1024px){
+    .bg{
+        height: 300px;
+    }
+}
+/* TABLET */
+@media screen and (max-width:768px){
+    .bg{
+        height: 240px;
+    }
+}
+/* PHONE */
+@media screen and (max-width:425px){
+}

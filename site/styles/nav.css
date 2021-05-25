@@ -1,0 +1,193 @@
+/* buttons for nav */
+nav{
+    background-color: #c0c0c0;
+    border: 3px solid #706f6f;
+    text-align: center;
+    max-width: 950px;
+    align-self: center;
+    height: 55px;
+}
+.button{
+    text-align: center;
+    width:170px;
+    height: 30px;
+    color: #c0c0c0;
+    background-color: maroon;
+    border: 2px solid maroon;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .5s;
+}
+.button:hover{
+    box-shadow: 0 4px 15px 0 maroon inset,
+                0 4px 15px 0 red; 
+    background-color: #c0c0c0;
+    color: rgb(214, 2, 2);
+    border: 1px solid red;
+    text-decoration: solid;
+}
+
+/* char buttons */
+.btn2{
+    text-align: center;
+    width:90px;
+    height: 90px;
+    color: #c0c0c0;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: .3s;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+.sel{
+    color: white;
+    text-shadow: 0 0 20px black,
+                0 0 20px #c0c0c0;
+    font-size: 2em;
+}
+.ironman{
+    background-image: url(../assets/images/IronManLogo.png);
+}
+.ironman:hover{
+    box-shadow: 0 4px 15px 0 #c0c0c0 inset,
+                0 4px 15px 0 #c0c0c0;
+    border: 1px solid #c0c0c0;
+}
+.thor{
+    background-image: url(../assets/images/ThorLogo.jpg);
+}
+.thor:hover{
+    box-shadow: 0 4px 15px 0 yellow inset,
+                0 4px 15px 0 yellow;
+    border: 1px solid yellow;
+}
+.cap{
+    background-image: url(../assets/images/CapLogo.png);
+}
+.cap:hover{
+    box-shadow: 0 4px 15px 0 blue inset,
+                0 4px 15px 0 blue;
+    border: 1px solid blue;
+}
+.spidey{
+    background-image: url(../assets/images/SpidermanLogo.jpg);
+}
+.spidey:hover{
+    box-shadow: 0 4px 15px 0 maroon inset,
+                0 4px 15px 0 maroon;
+    border: 1px solid maroon;
+}
+.panther{
+    background-image: url(../assets/images/PantherLogo.jpg);
+}
+.panther:hover{
+    box-shadow: 0 4px 15px 0 darkviolet inset,
+                0 4px 15px 0 darkviolet;
+    border: 1px solid darkviolet;
+}
+.strange{
+    background-image: url(../assets/images/StrangeLogo.jpg);
+}
+.strange:hover{
+    box-shadow: 0 4px 15px 0 orangered inset,
+                0 4px 15px 0 orangered;
+    border: 1px solid orange;
+}
+.widow{
+    background-image: url(../assets/images/WidowLogo.jpg);
+}
+.widow:hover{
+    box-shadow: 0 4px 15px 0 red inset,
+                0 4px 15px 0 red;
+    border: 1px solid red;
+}
+.hulk{
+    background-image: url(../assets/images/HulkLogo.png);
+}
+.hulk:hover{
+    box-shadow: 0 4px 15px 0 green inset,
+                0 4px 15px 0 green;
+    border: 1px solid green;
+}
+
+/* SMALL LAPTOP */
+@media screen and (max-width:1024px){
+    nav{
+        border: 2px;
+        max-width: 650px;
+        height: 38px;
+        font-size: 0.9em;
+    }
+    .button{
+        width: 115px;
+        height: 23px;
+        border: 2px;
+        border-radius: 10px;
+    }
+    .sel{
+        font-size: 1.5em;
+    }
+    .spacer{
+        height: 110px;
+    }
+}
+/* TABLET */
+@media screen and (max-width:768px){
+    nav{
+        border: 2px;
+        max-width: 450px;
+        height: 70px;
+        font-size: 0.8em;
+    }
+    .button{
+        width: 100px;
+        height: 19px;
+        border: 2px;
+        border-radius: 10px;
+    }
+    .sel{
+        font-size: 1.2em;
+    }
+    .spacer{
+        height: 73px;
+    }
+    .navs{
+        height: 28px;
+    }
+    .btn2{
+        width: 60px;
+        height: 60px;
+    }
+}
+/* PHONE */
+@media screen and (max-width:425px){
+    nav{
+        border: 2px;
+        max-width: 300px;
+        height: 55px;
+        font-size: 0.65em;
+    }
+    .button{
+        width: 75px;
+        height: 15px;
+        border: 2px;
+        border-radius: 10px;
+    }
+    .btn{
+        width: 100px;
+    }
+    .sel{
+        font-size: 1em;
+    }
+    .spacer{
+        height: 52px;
+    }
+    .navs{
+        height: 20px;
+    }
+    .btn2{
+        width: 40px;
+        height: 40px;
+    }
+}

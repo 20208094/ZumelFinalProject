@@ -20,6 +20,12 @@ body{
 .bg{
     height: 375px;
 }
+.title{
+    color: white;
+    text-shadow: 0 0 20px black,
+                0 0 10px red;
+    font-size: 2em;
+}
 /* character logos */
 .char{
     text-align: center;
@@ -29,13 +35,22 @@ body{
     .bg{
         height: 300px;
     }
+    .title{
+        font-size: 1.5em;
+    }
 }
 /* TABLET */
 @media screen and (max-width:768px){
     .bg{
         height: 240px;
     }
+    .title{
+        font-size: 1.3em;
+    }
 }
 /* PHONE */
 @media screen and (max-width:425px){
+    .title{
+        font-size: 1.1em;
+    }
 }

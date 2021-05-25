@@ -29,6 +29,16 @@ nav{
     border: 1px solid red;
     text-decoration: solid;
 }
+.center{
+    text-align: center;
+}
+.subtitle{
+    color: white;
+    text-shadow: 0 0 20px black,
+                0 0 10px red;
+    font-size: 2em;
+    text-align: center;
+}
 
 /* char buttons */
 .btn2{
@@ -134,6 +144,9 @@ nav{
     .spacer{
         height: 110px;
     }
+    .subtitle{
+        font-size: 1.4em;
+    }
 }
 /* TABLET */
 @media screen and (max-width:768px){
@@ -161,6 +174,9 @@ nav{
     .btn2{
         width: 60px;
         height: 60px;
+    }
+    .subtitle{
+        font-size: 1.2em;
     }
 }
 /* PHONE */
@@ -192,5 +208,8 @@ nav{
     .btn2{
         width: 40px;
         height: 40px;
+    }
+    .subtitle{
+        font-size: 1em;
     }
 }

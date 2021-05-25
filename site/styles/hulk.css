@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #c0c0c0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: 1pt solid red;
+    max-width: 1440px;
+}
+body{
+    background-image: url(../assets/images/HulkBG.jpg);
+    background-position-x: center;
+    background-position-y: center;
+}
+p{
+    text-align: left;
+    font-size: 1.1em;
+    text-indent: 2em;
+    background-color: black;
+    background-blend-mode: darken;
+}
+.title{
+    color: white;
+    text-shadow: 0 0 20px black,
+                0 0 10px red;
+    font-size: 3em;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.img{
+    width: 350px;
+}
+/* SMALL LAPTOP */
+@media screen and (max-width:1024px){
+    .title{
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 1em;
+    }
+    .img{
+        width: 320px;
+    }
+}
+/* TABLET */
+@media screen and (max-width:768px){
+    .title{
+        font-size: 1.3em;
+    }
+    p{
+        font-size: 0.9em;
+    }
+    .img{
+        width: 320px;
+    }
+}
+/* PHONE */
+@media screen and (max-width:425px){
+    .title{
+        font-size: 1.1em;
+    }
+    p{
+        font-size: 0.8em;
+    }
+    .img{
+        width: 230px;
+    }
+}

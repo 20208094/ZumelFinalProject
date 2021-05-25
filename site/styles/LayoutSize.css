@@ -5,9 +5,7 @@
     padding: 3px;
 }
 .col0{
-    width: 0px;
-    padding: 0px;
-    margin: 0px;
+    width: 0.00%;
 }
 .col1{
     width: 9.99%;
@@ -46,6 +44,9 @@
         margin: 3px auto;
         padding: 3px;
     }
+    .col0{
+        width: 1%;
+    }
     .cola0{
         width: 0%;
     }
@@ -54,6 +55,9 @@
     }
     .cola2{
         width: 19.99%;
+    }
+    .cola2_5{
+        width: 24.99%;
     }
     .cola3{
         width: 29.99%;
@@ -78,6 +82,9 @@
     }
     .cola10{
         width: 99.99%;
+    }
+    .hidden{
+        display: none;
     }
 }
 /* TABLET */

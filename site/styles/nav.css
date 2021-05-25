@@ -6,6 +6,9 @@ nav{
     max-width: 950px;
     align-self: center;
     height: 55px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
 }
 .button{
     text-align: center;
@@ -117,13 +120,13 @@ nav{
         border: 2px;
         max-width: 650px;
         height: 38px;
-        font-size: 0.9em;
     }
     .button{
         width: 115px;
         height: 23px;
         border: 2px;
         border-radius: 10px;
+        font-size: 0.9em;
     }
     .sel{
         font-size: 1.5em;
@@ -138,13 +141,13 @@ nav{
         border: 2px;
         max-width: 400px;
         height: 65px;
-        font-size: 0.8em;
     }
     .button{
         width: 100px;
         height: 19px;
         border: 2px;
         border-radius: 10px;
+        font-size: 0.8em;
     }
     .sel{
         font-size: 1.2em;
@@ -164,15 +167,15 @@ nav{
 @media screen and (max-width:425px){
     nav{
         border: 2px;
-        max-width: 300px;
-        height: 55px;
-        font-size: 0.65em;
+        max-width: 340px;
+        height: 65px;
     }
     .button{
         width: 75px;
         height: 15px;
         border: 2px;
         border-radius: 10px;
+        font-size: 0.65em;
     }
     .btn{
         width: 100px;
